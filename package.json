@@ -1,0 +1,20 @@
+{
+  "name": "openrouter-proxy",
+  "version": "1.0.0",
+  "description": "Small Express proxy that exposes an Anthropic-style /v1/messages endpoint backed by OpenRouter.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
